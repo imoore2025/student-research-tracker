@@ -1,7 +1,7 @@
 # student-research-tracker
 A TypeScript/React application for organizing research papers, annotations, datasets, research questions, and project tasks.
 
-For the MVP, this app will:
+For the MVP, I will:
 - Define a Paper type/interface
 - Store an array of papers in state
 - Render papers with a PaperList component
