@@ -4,11 +4,11 @@
   "description": "A TypeScript/React application for organizing research papers, annotations, datasets, research questions, and project tasks.",
   "main": "index.js",
   "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imoore2025/student-research-tracker.git"
@@ -33,5 +33,17 @@
     "@types/node": "^16.18.126",
     "@types/react": "^18.3.29",
     "@types/react-dom": "^18.3.7"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
