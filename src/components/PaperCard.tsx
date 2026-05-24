@@ -13,6 +13,22 @@ export function PaperCard({paper}: PaperCardProps) {
             <p>
                 <strong>Authors:</strong> {paper.authors.join(", ")}
             </p>
+
+            <p>
+                <strong>Year:</strong> {paper.year}
+            </p>
+            <p>
+                <strong>Venue:</strong> {paper.venue}
+            </p>
+            <p>
+                <strong>Status:</strong> {paper.paperStatus}
+            </p>
+            <p>
+                <strong>Tags:</strong> {paper.tags.join(", ")}
+            </p>
+            <p>
+                <strong>Notes:</strong> {paper.notes}
+            </p>
         </div>
-    )
+    );
 }
