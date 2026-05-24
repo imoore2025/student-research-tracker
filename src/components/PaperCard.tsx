@@ -1,5 +1,4 @@
 import { Paper } from "../types/Paper"
-import { samplePapers } from "./PaperList";
 
 interface PaperCardProps {
     paper: Paper;
