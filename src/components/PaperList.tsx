@@ -6,3 +6,9 @@ import PaperCard from "./PaperCard";
 interface PaperListProps {
   papers: Paper[];
 }
+
+export function PaperList({papers}: PaperListProps) {
+  return (
+
+  );
+}
