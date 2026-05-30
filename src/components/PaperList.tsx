@@ -10,5 +10,7 @@ interface PaperListProps {
 export function PaperList({papers}: PaperListProps) {
   return (
 
+    //For every paper in the papers array, render one PaperCard.
+    //Uses Map...
   );
 }
