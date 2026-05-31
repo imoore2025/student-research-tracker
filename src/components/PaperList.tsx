@@ -1,5 +1,5 @@
 import { Paper } from "../types/Paper";
-import PaperCard from "./PaperCard";
+import { PaperCard } from "./PaperCard";
 
 //Task: receive an array of papers and render a PaperCard for each one.
 
@@ -13,7 +13,7 @@ export function PaperList({papers}: PaperListProps) {
     //Uses Map...
     <section>
       <h2>Research Papers</h2>
-      
+
     {papers.map((paper) => (
       <PaperCard key = {paper.id} paper = {paper} />
     ))}
